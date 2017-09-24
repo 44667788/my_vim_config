@@ -17,6 +17,8 @@ Plug 'honza/vim-snippets'
 Plug 'Raimondi/delimitMate'
 Plug 'equalsraf/neovim-gui-shim'
 Plug 'flazz/vim-colorschemes'
+Plug 'fatih/vim-go' ,{'for': 'go'}				"go lang 支持
+Plug 'zchee/deoplete-go', { 'do': 'make'}			"go lang 自动补全
 call plug#end()
 
 let mapleader=";"

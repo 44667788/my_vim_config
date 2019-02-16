@@ -1,3 +1,4 @@
+let g:ctrlsf_ackprg='ag'
 nmap     <C-F>f <Plug>CtrlSFPrompt
 vmap     <Leader>f <Plug>CtrlSFVwordPath
 vmap     <C-F>F <Plug>CtrlSFVwordExec

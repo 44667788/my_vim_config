@@ -19,11 +19,13 @@ Plug 'fatih/vim-go' ,{'for': 'go'}				"go lang 支持
 Plug 'zchee/deoplete-go', { 'do': 'make'}			"go lang 自动补全
 
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }		"模糊搜索
-
+Plug 'easymotion/vim-easymotion'
 
 call plug#end()
 
 let mapleader=";"
+
+set number
 
 "快捷写入和退出
 nmap <Leader>q :q<CR>
